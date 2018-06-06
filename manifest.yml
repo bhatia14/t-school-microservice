@@ -1,0 +1,11 @@
+---
+applications:
+  path: build/libs/micro-socialreview-0.1.0.jar
+- name: micro-socialreview-0.1.0
+  memory: 512M
+  domain: mybluemix.net
+  instances: 1
+  
+  services:
+  - t-school-cloudantdb
+
